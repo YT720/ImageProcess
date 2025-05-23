@@ -9,13 +9,16 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    ImageProcess.cpp \
     main.cpp \
     MainWidget.cpp
 
 HEADERS += \
+    ImageProcess.h \
     MainWidget.h
 
 FORMS += \
+    ImageProcess.ui \
     MainWidget.ui
 
 # Default rules for deployment.
